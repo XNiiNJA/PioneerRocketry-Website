@@ -166,7 +166,13 @@ max-height:auto;
     font-size: 16px;
 }
 
-.home-section{
+.is-small-screen .home-section{
+
+    height: calc(100% - 64px);
+
+}
+
+.home-section {
 
     position: relative;
     background: url('../img/dark_rocket.png') center top no-repeat;
@@ -182,11 +188,9 @@ max-height:auto;
     background-color: initial;
     background-size: cover;
     max-height: 100%;
-    height: calc(100% - 64px);
+    height: calc(100% - 64px - 240px);
     /*height: 800px;*/
     color: white;
-
-
 }
 
 .centered-section-text{
