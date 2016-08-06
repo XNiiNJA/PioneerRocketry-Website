@@ -182,7 +182,7 @@ max-height:auto;
     background-color: initial;
     background-size: cover;
     max-height: 100%;
-    height: calc(100% - 64px - 240px);
+    height: calc(100% - 64px);
     /*height: 800px;*/
     color: white;
 
