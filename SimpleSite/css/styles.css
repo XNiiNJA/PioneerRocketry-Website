@@ -141,10 +141,11 @@ max-height:auto;
     color: white;
 }
 .sponsor-band {
-    position: absolute;
+    /*position: absolute;*/
     color: #000000;
     bottom: 0;
     width: 100%;
+    height: 240px;
     text-align: center;
     background-color: #ffffff;
 }
@@ -181,7 +182,7 @@ max-height:auto;
     background-color: initial;
     background-size: cover;
     max-height: 100%;
-    height: calc(100% - 64px);
+    height: calc(100% - 64px - 240px);
     /*height: 800px;*/
     color: white;
 
@@ -190,16 +191,25 @@ max-height:auto;
 
 .centered-section-text{
 
+    position:relative;
   max-width: 500px;
+    max-height: 100%;
   margin-right: auto;
   margin-left: auto;
-  padding: 110px 16px 160px 16px;    
+  padding: 110px 16px 160px 16px;
   text-align: center;
 }
 
 .mdl-layout__header-row{
 
   padding: 0 40px 0 40px;
+
+}
+
+.img-align-vertical{
+
+    position:absolute;
+    top:50%;
 
 }
 
