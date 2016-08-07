@@ -1,12 +1,16 @@
-.page-content{height:100vh; background:#ffffff;}
-.pioneer-layout_header{
+.page-content {
+    height: 100vh;
+    background: #ffffff;
+}
 
-  background-color: #37474f;
-  background-image: url("../img/header-no-rocket.png");
+.pioneer-layout_header {
+
+    background-color: #37474f;
+    background-image: url("../img/header-no-rocket.png");
     background-size: auto;
     background-repeat: no-repeat;
     background-position: center center;
-    box-shadow: none!important;
+    box-shadow: none !important;
     -webkit-align-items: flex-start;
     -ms-flex-align: start;
     align-items: flex-start;
@@ -14,56 +18,56 @@
     -ms-flex-negative: 0;
     flex-shrink: 0;
     position: relative;
-    display: -webkit-flex!important;
-    display: -ms-flexbox!important;
-    display: flex!important;
+    display: -webkit-flex !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
 
 }
 
-.mdl-navigation{
+.mdl-navigation {
 
-  overflow: hidden;
+    overflow: hidden;
 
 }
 
-.custom-header-color{
+.custom-header-color {
 
-background-color: #FFFFFF;
+    background-color: #FFFFFF;
 
 }
 
 .pioneer-layout__tab-panel .mdl-layout__tab-panel {
 
-  height: auto;
+    height: auto;
 
 }
 
 .pioneer-card-container .mdl-card__media {
-  overflow: hidden;
-  background: transparent;
+    overflow: hidden;
+    background: transparent;
 }
 
 .pioneer-card-container .mdl-card__media img {
 
-max-width:100%;
-max-height:auto;
+    max-width: 100%;
+    max-height: auto;
 
 }
 
-.mdl-layout__header .mdl-layout__drawer-button{
+.mdl-layout__header .mdl-layout__drawer-button {
 
-  background-color: transparent;
+    background-color: transparent;
 
 }
 
-.mdl-navigation.mdl-layout__tab-bar{
-  -webkit-flex-wrap:nowrap!important;
-  flex-wrap:nowrap!important;
-  box-sizing:border-box!important;
-  background-color: transparent;
+.mdl-navigation.mdl-layout__tab-bar {
+    -webkit-flex-wrap: nowrap !important;
+    flex-wrap: nowrap !important;
+    box-sizing: border-box !important;
+    background-color: transparent;
 }
 
-.pioneer-navigation_container{
+.pioneer-navigation_container {
 
     overflow: hidden;
     position: absolute;
@@ -72,19 +76,19 @@ max-height:auto;
 
 }
 
-.mdl-layout__header-row .mdl-navigation{
-  width: auto;
-  padding-left: 30px;
-  margin-right: 0;
+.mdl-layout__header-row .mdl-navigation {
+    width: auto;
+    padding-left: 30px;
+    margin-right: 0;
 }
 
 .pioneer-navigation {
 
-    box-shadow: none!important;
+    box-shadow: none !important;
     width: 100%;
     height: 85px;
     padding-left: 20px;
-    margin-left:  20px;
+    margin-left: 20px;
     -webkit-flex-shrink: 0;
     -ms-flex-negative: 0;
     flex-shrink: 0;
@@ -96,7 +100,6 @@ max-height:auto;
     user-select: none;
     margin-bottom: -16px;
 }
-
 
 .trex-section {
 
@@ -140,6 +143,7 @@ max-height:auto;
     margin: 0 auto;
     color: white;
 }
+
 .sponsor-band {
     /*position: absolute;*/
     color: #000000;
@@ -160,13 +164,14 @@ max-height:auto;
 .pioneer-alt-link:hover {
     color: #00bfa5 !important;
 }
+
 .pioneer-alt-link {
     text-decoration: none;
     color: #64ffda !important;
     font-size: 16px;
 }
 
-.is-small-screen .home-section{
+.is-small-screen .home-section {
 
     height: calc(100% - 64px);
 
@@ -193,45 +198,57 @@ max-height:auto;
     color: white;
 }
 
-.centered-section-text{
+.centered-section-logo{
 
-    position:relative;
-  max-width: 500px;
-    max-height: 100%;
-  margin-right: auto;
-  margin-left: auto;
-  padding: 110px 16px 160px 16px;
-  text-align: center;
-}
 
-.mdl-layout__header-row{
-
-  padding: 0 40px 0 40px;
+    position: relative;
+    max-width: 500px;
+    max-height: calc(100% - 64px);
+    margin-right: auto;
+    margin-left: auto;
+    transform: translate(0%, 10%);
+    text-align: center;
 
 }
 
-.img-align-vertical{
+.centered-section-text {
 
-    position:absolute;
-    top:50%;
+    position: relative;
+    max-width: 500px;
+    margin-right: auto;
+    margin-left: auto;
+    top: 50%;
+    text-align: center;
+}
+
+.mdl-layout__header-row {
+
+    padding: 0 40px 0 40px;
 
 }
 
-.logo-big{
+.img-align-vertical {
 
-max-width: 300px;
-max-height: 300px;
+    position: absolute;
+    top: 50%;
 
 }
 
-.logo-med{
+.logo-big {
+
+    max-width: 300px;
+    max-height: 300px;
+
+}
+
+.logo-med {
 
     max-width: 200px;
     max-height: 200px;
 
 }
 
-.sponsor-img-section{
+.sponsor-img-section {
 
     position: relative;
     background: url('../img/skybreaker_tail.png') center top no-repeat;
@@ -250,9 +267,8 @@ max-height: 300px;
 
 }
 
-
 .social-btn {
-      background-color: transparent;
+    background-color: transparent;
     margin: 0 16px;
     display: block;
     background-position: center;
@@ -264,24 +280,21 @@ max-height: 300px;
 
 }
 
+.social-btn__facebook {
 
-.social-btn__facebook{
-
-  background-image: url('../img/social_white_facebook.png');
-
+    background-image: url('../img/social_white_facebook.png');
 
 }
 
+.social-btn__instagram {
 
-.social-btn__instagram{
-
-background-image: url('../img/social_white_instagram.png');
+    background-image: url('../img/social_white_instagram.png');
 
 }
 
-.social-btn__youtube{
+.social-btn__youtube {
 
-background-image: url('../img/social_white_youtube.png');
+    background-image: url('../img/social_white_youtube.png');
 
 }
 
@@ -290,6 +303,7 @@ background-image: url('../img/social_white_youtube.png');
     -ms-flex-pack: center;
     justify-content: center;
 }
+
 .pioneer-footer.mdl-mini-footer {
     -webkit-flex-direction: column;
     -ms-flex-direction: column;
@@ -313,13 +327,13 @@ ul {
     color: #000000;
 }
 
-.sponsor-customized-section-text .centered-section-text{
+.sponsor-customized-section-text .centered-section-text {
 
-  max-width: 500px;
-  margin-right: auto;
-  margin-left: auto;
-  padding: 40px 16px 10px 16px;    
-  text-align: center;
+    max-width: 500px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 40px 16px 10px 16px;
+    text-align: center;
 }
 
 .pioneer-footer.mdl-mini-footer ul {
@@ -341,6 +355,7 @@ ul {
     width: 24px;
     height: 24px;
 }
+
 li {
     position: relative;
 }
